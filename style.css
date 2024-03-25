@@ -1,0 +1,57 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "cabeca cabeca cabeca"
+    "lateral meio meio"
+    "pe pe pe";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+header{
+    grid-area: cabeca;
+    background-color: red;
+    text-align: center;
+}
+
+aside{
+    grid-area: lateral;
+    background-color: blue;
+}
+
+main{
+    grid-area: meio;
+    background-color: aqua;
+}
+
+footer{
+    grid-area: pe;
+    background-color: violet;
+}
+@media  screen  and (max-width: 800px){
+    body{
+        grid-template-areas: 
+        "cabeca"
+        "lateral"
+        "meio"
+        "pe";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    
+}
+.s23{
+    width: 400px;
+}
+.logo{
+    width: 400px;
+}
+.Iphone{
+    width: 400px;
+}
+.S20{
+    width: 400px;
+}
+.note12{
+    width: 400px;
+}
