@@ -40,6 +40,12 @@ footer{
     }
     
 }
+.rog{
+    width: 400px;
+}
+.poco{
+    width: 400px;
+}
 .s23{
     width: 400px;
 }
@@ -47,11 +53,28 @@ footer{
     width: 400px;
 }
 .Iphone{
-    width: 400px;
+    width: 300px;
 }
 .S20{
     width: 400px;
 }
 .note12{
     width: 400px;
+}
+.celular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.celulares{
+    border-radius: 30px;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    transition: 0,5s;
 }
