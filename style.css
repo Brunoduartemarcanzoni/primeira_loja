@@ -10,13 +10,13 @@ body{
 
 header{
     grid-area: cabeca;
-    background-color: red;
+    background-color: gray;
     text-align: center;
 }
 
 aside{
     grid-area: lateral;
-    background-color: blue;
+    background-color: aliceblue;
 }
 
 main{
@@ -26,7 +26,7 @@ main{
 
 footer{
     grid-area: pe;
-    background-color: violet;
+    background-color: gray;
 }
 @media  screen  and (max-width: 800px){
     body{
@@ -41,10 +41,10 @@ footer{
     
 }
 .rog{
-    width: 400px;
+    width: 350px;
 }
 .poco{
-    width: 400px;
+    width: 350px;
 }
 .s23{
     width: 400px;
@@ -58,7 +58,7 @@ footer{
 .S20{
     width: 400px;
 }
-.note12{
+.note12{    
     width: 400px;
 }
 .celular{
