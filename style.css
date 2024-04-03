@@ -10,8 +10,9 @@ body{
 
 header{
     grid-area: cabeca;
-    background-color: gray;
+    background-color: black;
     text-align: center;
+    color: white;
 }
 
 aside{
@@ -21,12 +22,14 @@ aside{
 
 main{
     grid-area: meio;
-    background-color: aqua;
+    background-color: gray  ;
 }
 
 footer{
     grid-area: pe;
-    background-color: gray;
+    background-color: black;
+    text-align: center;
+    color: white;
 }
 @media  screen  and (max-width: 800px){
     body{
@@ -61,6 +64,9 @@ footer{
 .note12{    
     width: 400px;
 }
+.Indução{
+    width: 350px;
+}
 .celular{
     display: flex;
     flex-wrap: wrap;
@@ -68,7 +74,7 @@ footer{
 }
 .celulares{
     border-radius: 30px;
-    width: 550px;
+    width: 400px;
     height: 550px;
     display: flex;
     flex-direction: column;
@@ -77,4 +83,11 @@ footer{
     margin: 20px;
     background-color: white;
     transition: 0,5s;
+}
+.celular a{
+    background-color: black;
+    border-radius: 40px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
 }
