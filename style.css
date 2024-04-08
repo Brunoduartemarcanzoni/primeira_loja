@@ -44,10 +44,10 @@ footer{
     
 }
 .rog{
-    width: 350px;
+    width: 300px;
 }
 .poco{
-    width: 350px;
+    width: 300px;
 }
 .s23{
     width: 400px;
@@ -67,6 +67,18 @@ footer{
 .Indução{
     width: 350px;
 }
+.carregador{
+    width: 300px;
+}
+.cabo{
+    width: 300px;
+}
+.capinha{
+    width: 350px;
+}
+.iphone7{
+    width: 250px;
+}
 .celular{
     display: flex;
     flex-wrap: wrap;
@@ -85,7 +97,7 @@ footer{
     transition: 0,5s;
 }
 .celular a{
-    background-color: black;
+    background-color: white;
     border-radius: 40px;
     width: 80px;
     text-align: center;
