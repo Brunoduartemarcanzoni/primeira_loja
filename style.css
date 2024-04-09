@@ -27,7 +27,7 @@ main{
 
 footer{
     grid-area: pe;
-    background-color: black;
+    background-color:black;
     text-align: center;
     color: white;
 }
