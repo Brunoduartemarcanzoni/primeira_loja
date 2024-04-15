@@ -12,3 +12,12 @@ header{
     display: flex;
     flex-direction: column;
 }
+main{
+    text-align: center;
+    align-items: center;
+    background-color: grey;
+}
+button{
+    width: 100px;
+    height: 50px;
+}
