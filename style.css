@@ -105,3 +105,40 @@ footer{
     color: white;
     height: 20px;
 }
+.lado ul{
+    list-style: none;
+    border: rgb(224, 222, 222) solid 2px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.lado img{
+    width: 30px;
+    border: gray solid 2px;
+}
+.lado input[type="checkbox"]{
+    display: none;
+}
+.lado nav{
+    border: rgb(51, 51, 51);
+    width: 200px;
+    height: 179vh;
+    position: absolute;
+    left: -350px;
+    transition: all 0.3s;
+    background-color: rgb(29, 29, 29);
+}
+.lado a{
+    border: gray solid;
+    display: block;
+    padding: 20px 5px;
+    text-decoration: none;
+}
+.lado label{
+    position: absolute;
+    z-index: 1;
+}
+.lado input[type="checkbox"]:checked ~ nav{
+    transform:translateX(350px);
+}

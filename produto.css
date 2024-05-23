@@ -2,6 +2,7 @@ header{
     text-align: center;
     background-color: black;
     color: antiquewhite;
+    grid-area: cabeca;
 }
 .iphone{
     width: 400px;  
@@ -16,8 +17,27 @@ main{
     text-align: center;
     align-items: center;
     background-color: grey;
+    grid-area: meio;
 }
 button{
     width: 100px;
     height: 50px;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "cabeca cabeca cabeca"
+    "meio meio meio";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+@media  screen  and (max-width: 800px){
+    body{
+        grid-template-areas: 
+        "cabeca"
+        "meio";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    
 }
